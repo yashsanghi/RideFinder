@@ -1,0 +1,41 @@
+.container {
+  background-color: #292929;
+  min-height: 100vh;
+}
+
+.body {
+  padding: 28px 42px;
+}
+
+.tabs {
+  display: flex;
+  align-items: center;
+}
+
+.tab {
+  margin-right: 42px;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.tab p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #d0cbcb;
+}
+
+.activeTab {
+  margin-bottom: 0;
+}
+
+.activeTab p {
+  color: white;
+}
+
+.indicator {
+  height: 2px;
+  width: 100%;
+  background-color: white;
+  margin-top: 6px;
+}

@@ -1,0 +1,70 @@
+.container {
+  position: relative;
+}
+
+.popup {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #131313;
+  border-radius: 12px;
+  padding: 12px 22px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  padding: 4px 12px;
+  border-radius: 4px;
+  transition: all 0.15s ease;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.icon {
+  width: 18px;
+  height: 12px;
+  margin-right: 8px;
+}
+
+.filterText {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #f2f2f2;
+}
+
+.title {
+  width: 100%;
+  padding: 0 6px 12px;
+  border-bottom: 1px solid #cbcbcb;
+  margin-bottom: 20px;
+}
+
+.title p {
+  text-align: left;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #a5a5a5;
+}
+
+.select {
+  width: 100%;
+  min-width: 200px;
+  margin-bottom: 12px;
+  background-color: #232323;
+  border: none;
+  padding: 6px 8px;
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.option {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+}

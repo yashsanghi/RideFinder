@@ -1,0 +1,36 @@
+.header {
+  width: 100%;
+  background-color: #101010;
+  padding: 20px 42px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.profilePic {
+  width: 42px;
+  height: 42px;
+  border-radius: 999px;
+  margin-left: 24px;
+}
